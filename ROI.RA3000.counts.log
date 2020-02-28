@@ -1,0 +1,35 @@
+PLINK v1.90p 64-bit (21 Feb 2018)
+Options in effect:
+  --adjust
+  --allow-no-sex
+  --assoc counts
+  --bfile ROI.RA3000.dbsnp
+  --ci 0.95
+  --hwe 0.01
+  --maf 0.01
+  --out ROI.RA3000.counts
+
+Hostname: chg1-lc
+Working directory: /mnt/bigdata/Genetic/Projects/shg047/rheumatology/RA/meta3000/MIR
+Start time: Sat Feb 22 23:55:16 2020
+
+Random number seed: 1582437316
+387577 MB RAM detected; reserving 193788 MB for main workspace.
+233 variants loaded from .bim file.
+3187 people (369 males, 1689 females, 1129 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ROI.RA3000.counts.nosex .
+3187 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 3187 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+--hwe: 1 variant removed due to Hardy-Weinberg exact test.
+3 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+229 variants and 3187 people pass filters and QC.
+Among remaining phenotypes, 1607 are cases and 1580 are controls.
+Writing C/C --assoc report to ROI.RA3000.counts.assoc ...
+done.
+--adjust: Genomic inflation est. lambda (based on median chisq) = 1.
+--adjust values (229 variants) written to ROI.RA3000.counts.assoc.adjusted .
+
+End time: Sat Feb 22 23:55:16 2020

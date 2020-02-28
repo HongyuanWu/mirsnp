@@ -1,0 +1,53 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Skipping web check... [ --noweb ] 
+Writing this text to log file [ ROI.RA500.haplotype.log ]
+Analysis started: Thu Feb 20 00:55:45 2020
+
+Options in effect:
+	--bfile ROI.RA500.dbsnp
+	--hap-window 2,3,4,5,6
+	--hap-assoc
+	--out ROI.RA500.haplotype
+	--noweb
+
+** For gPLINK compatibility, do not use '.' in --out **
+Reading map (extended format) from [ ROI.RA500.dbsnp.bim ] 
+233 markers to be included from [ ROI.RA500.dbsnp.bim ]
+Reading pedigree information from [ ROI.RA500.dbsnp.fam ] 
+1071 individuals read from [ ROI.RA500.dbsnp.fam ] 
+0 individuals with nonmissing phenotypes
+Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
+Missing phenotype value is also -9
+0 cases, 0 controls and 1071 missing
+0 males, 0 females, and 1071 of unspecified sex
+Warning, found 1071 individuals with ambiguous sex codes
+These individuals will be set to missing ( or use --allow-no-sex )
+Writing list of these individuals to [ ROI.RA500.haplotype.nosex ]
+Reading genotype bitfile from [ ROI.RA500.dbsnp.bed ] 
+Detected that binary PED file is v1.00 SNP-major mode
+Before frequency and genotyping pruning, there are 233 SNPs
+1071 founders and 0 non-founders found
+Total genotyping rate in remaining individuals is 1
+0 SNPs failed missingness test ( GENO > 1 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 233 SNPs
+After filtering, 0 cases, 0 controls and 1071 missing
+After filtering, 0 males, 0 females, and 1071 of unspecified sex
+
+Created 876 sliding windows
+Estimating haplotype frequencies/phases ( MHF >= 0.01 )
+Considering phases P(H|G) >= 0.01
+Requiring per individual per haplotype missingness < 0.5 
+Writing haplotype association statistics to [ ROI.RA500.haplotype.assoc.hap ]
+
+Analysis finished: Thu Feb 20 00:55:47 2020
+

@@ -1,0 +1,14 @@
+#Partially deleted in new
+chr1	187891	187958	ID=MI0026420;Alias=MI0026420;Name=hsa-mir-6859-2
+#Partially deleted in new
+chr1	187891	187913	ID=MIMAT0027619_1;Alias=MIMAT0027619;Name=hsa-miR-6859-3p;Derives_from=MI0026420
+#Partially deleted in new
+chr8	144400086	144400165	ID=MI0006324;Alias=MI0006324;Name=hsa-mir-1234
+#Deleted in new
+chr9	41233755	41233835	ID=MI0016829;Alias=MI0016829;Name=hsa-mir-4477a
+#Deleted in new
+chr9	41233802	41233823	ID=MIMAT0019004;Alias=MIMAT0019004;Name=hsa-miR-4477a;Derives_from=MI0016829
+#Deleted in new
+chr9	41233755	41233835	ID=MI0016830;Alias=MI0016830;Name=hsa-mir-4477b
+#Deleted in new
+chr9	41233765	41233786	ID=MIMAT0019005;Alias=MIMAT0019005;Name=hsa-miR-4477b;Derives_from=MI0016830

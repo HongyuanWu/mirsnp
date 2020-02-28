@@ -1,0 +1,9 @@
+[E::hts_open_format] Failed to open file "12.substitutions.annot.cont_withmaf.norm.vcf.gz" : No such file or directory
+Failed to read from 12.substitutions.annot.cont_withmaf.norm.vcf.gz: No such file or directory
+Writing to /tmp/bcftools-sort.5uV70p
+[E::hts_open_format] Failed to open file "12.substitutions.annot.cont_withmaf.norm.vcf.gz" : No such file or directory
+Could not read 12.substitutions.annot.cont_withmaf.norm.vcf.gz
+Cleaning
+The argument to -d not recognised: 12.substitutions.annot.cont_withmaf.norm.sort.vcf.gz
+[E::hts_open_format] Failed to open file "12.substitutions.annot.cont_withmaf.sort.vcf.gz" : No such file or directory
+Failed to read from 12.substitutions.annot.cont_withmaf.sort.vcf.gz: No such file or directory

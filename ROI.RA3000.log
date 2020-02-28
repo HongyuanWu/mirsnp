@@ -1,0 +1,39 @@
+PLINK v1.90p 64-bit (21 Feb 2018)
+Options in effect:
+  --a1-allele RA_GWASmeta_Asian_Guo2020.A1.txt
+  --adjust
+  --allow-no-sex
+  --bfile ROI.RA3000.dbsnp
+  --ci 0.95
+  --counts
+  --hwe 0.01
+  --logistic
+  --maf 0.01
+  --out ROI.RA3000
+
+Hostname: login
+Working directory: /mnt/bigdata/Genetic/Projects/shg047/rheumatology/RA/meta3000/MIR
+Start time: Sun Feb 23 23:36:17 2020
+
+Note: --counts flag deprecated.  Use '--freq counts' or --freqx instead.
+Random number seed: 1582522577
+64510 MB RAM detected; reserving 32255 MB for main workspace.
+233 variants loaded from .bim file.
+3187 people (369 males, 1689 females, 1129 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ROI.RA3000.nosex .
+3187 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 3187 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+--a1-allele: 187 assignments made.
+--hwe: 1 variant removed due to Hardy-Weinberg exact test.
+3 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+229 variants and 3187 people pass filters and QC.
+Among remaining phenotypes, 1607 are cases and 1580 are controls.
+Writing logistic model association results to ROI.RA3000.assoc.logistic ...
+done.
+--adjust: Genomic inflation est. lambda (based on median chisq) = 1.
+--adjust values (229 variants) written to ROI.RA3000.assoc.logistic.adjusted .
+
+End time: Sun Feb 23 23:36:17 2020

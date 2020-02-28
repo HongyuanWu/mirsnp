@@ -1,0 +1,35 @@
+PLINK v1.90p 64-bit (21 Feb 2018)
+Options in effect:
+  --bfile ROI
+  --cluster
+  --mds-plot 2
+  --threads 31
+
+Hostname: login
+Working directory: /mnt/bigdata/Genetic/Projects/shg047/rheumatology/RA/meta3000/MIR/PCA
+Start time: Thu Feb 20 16:28:05 2020
+
+Random number seed: 1582237685
+64510 MB RAM detected; reserving 32255 MB for main workspace.
+236 variants loaded from .bim file.
+5691 people (369 males, 1689 females, 3633 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to plink.nosex .
+3187 phenotype values loaded from .fam.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
+Using up to 31 threads (change this with --threads).
+Before main variant filters, 5691 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.991017.
+236 variants and 5691 people pass filters and QC.
+Among remaining phenotypes, 1029 are cases and 1029 are controls.  (3633
+phenotypes are missing.)
+Distance matrix calculation complete.
+Clustering... done.
+Cluster solution written to plink.cluster1 , plink.cluster2 , and
+plink.cluster3 .
+Performing multidimensional scaling analysis (SVD algorithm, 2
+dimensions)... done.
+MDS solution written to plink.mds .
+
+End time: Thu Feb 20 16:40:56 2020

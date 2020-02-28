@@ -1,0 +1,30 @@
+PLINK v1.90p 64-bit (21 Feb 2018)
+Options in effect:
+  --allow-no-sex
+  --bfile ROI.RA500.dbsnp
+  --ci 0.95
+  --dominant
+  --logistic
+  --out ROI.RA500.dominant
+
+Hostname: login
+Working directory: /mnt/bigdata/Genetic/Projects/shg047/rheumatology/RA/meta3000/MIR
+Start time: Thu Feb 20 00:55:44 2020
+
+Note: --dominant flag deprecated.  Use e.g. '--linear dominant' (and
+'--condition-list [filename] dominant' to change covariate coding).
+Random number seed: 1582181744
+64510 MB RAM detected; reserving 32255 MB for main workspace.
+233 variants loaded from .bim file.
+1071 people (0 males, 0 females, 1071 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ROI.RA500.dominant.nosex .
+1071 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 1071 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+233 variants and 1071 people pass filters and QC.
+Among remaining phenotypes, 520 are cases and 551 are controls.
+Writing logistic model association results to ROI.RA500.dominant.assoc.logistic
+... done.
+
+End time: Thu Feb 20 00:55:44 2020

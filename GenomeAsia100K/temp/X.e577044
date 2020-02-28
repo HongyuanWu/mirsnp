@@ -1,0 +1,4 @@
+[E::hts_open_format] Failed to open file "X.GenomeAsia100K.norm.vcf.gz" : No such file or directory
+Failed to read from X.GenomeAsia100K.norm.vcf.gz: No such file or directory
+[E::hts_open_format] Failed to open file "X.GenomeAsia100K.norm.vcf.gz" : No such file or directory
+Failed to read from X.GenomeAsia100K.norm.vcf.gz: No such file or directory

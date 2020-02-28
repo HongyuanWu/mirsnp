@@ -1,0 +1,31 @@
+PLINK v1.90p 64-bit (21 Feb 2018)
+Options in effect:
+  --allow-no-sex
+  --bfile ROI.RA1000.dbsnp
+  --ci 0.95
+  --freq counts
+  --model mperm=1000000
+  --out ROI.RA1000
+
+Hostname: login
+Working directory: /mnt/bigdata/Genetic/Projects/shg047/rheumatology/RA/meta3000/MIR
+Start time: Thu Feb 20 01:05:46 2020
+
+Random number seed: 1582182346
+64510 MB RAM detected; reserving 32255 MB for main workspace.
+233 variants loaded from .bim file.
+2116 people (369 males, 1689 females, 58 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ROI.RA1000.nosex .
+2116 phenotype values loaded from .fam.
+Using up to 15 threads (change this with --threads).
+Before main variant filters, 2116 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+--freq counts: Allele frequencies (founders only) written to
+ROI.RA1000.frq.counts .
+233 variants and 2116 people pass filters and QC.
+Among remaining phenotypes, 1087 are cases and 1029 are controls.
+Writing --model report to ROI.RA1000.model ... done.
+1000000 max(T) permutations complete.
+Permutation test report written to ROI.RA1000.model.best.mperm .
+
+End time: Thu Feb 20 01:06:40 2020

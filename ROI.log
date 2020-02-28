@@ -1,0 +1,36 @@
+PLINK v1.90p 64-bit (21 Feb 2018)
+Options in effect:
+  --adjust
+  --allow-no-sex
+  --bfile ROI.RA3000.dbsnp
+  --ci 0.95
+  --counts
+  --hwe 0.01
+  --logistic
+  --maf 0.01
+  --out ROI
+
+Hostname: chg1-lc
+Working directory: /mnt/bigdata/Genetic/Projects/shg047/rheumatology/RA/meta3000/MIR
+Start time: Sun Feb 23 17:42:17 2020
+
+Note: --counts flag deprecated.  Use '--freq counts' or --freqx instead.
+Random number seed: 1582501337
+387577 MB RAM detected; reserving 193788 MB for main workspace.
+233 variants loaded from .bim file.
+3187 people (369 males, 1689 females, 1129 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ROI.nosex .
+3187 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 3187 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+--hwe: 1 variant removed due to Hardy-Weinberg exact test.
+3 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+229 variants and 3187 people pass filters and QC.
+Among remaining phenotypes, 1607 are cases and 1580 are controls.
+Writing logistic model association results to ROI.assoc.logistic ... done.
+--adjust: Genomic inflation est. lambda (based on median chisq) = 1.
+--adjust values (229 variants) written to ROI.assoc.logistic.adjusted .
+
+End time: Sun Feb 23 17:42:17 2020

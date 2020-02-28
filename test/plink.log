@@ -1,0 +1,45 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Skipping web check... [ --noweb ] 
+Writing this text to log file [ plink.log ]
+Analysis started: Wed Jan 30 18:29:09 2013
+
+Options in effect:
+	--file thyroid
+	--epistasis
+	--epi1 1
+	--noweb
+
+5 (of 5) markers to be included from [ thyroid.map ]
+1850 individuals read from [ thyroid.ped ] 
+1850 individuals with nonmissing phenotypes
+Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
+Missing phenotype value is also -9
+845 cases, 1005 controls and 0 missing
+1310 males, 540 females, and 0 of unspecified sex
+Before frequency and genotyping pruning, there are 5 SNPs
+1850 founders and 0 non-founders found
+Total genotyping rate in remaining individuals is 1
+0 SNPs failed missingness test ( GENO > 1 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 5 SNPs
+After filtering, 845 cases, 1005 controls and 0 missing
+After filtering, 1310 males, 540 females, and 0 of unspecified sex
+Converting data to Individual-major format
+Writing epistasis pairwise results to [ plink.epi.cc ] 
+Threshold for displaying epistatic result (--epi1) : p <= 1
+Threshold for counting epistatic result (--epi2) : p <= 0.01
+ALL x ALL epistasis mode
+Performed a total of 10 valid SNPxSNP tests
+Writing epistasis summary results to [ plink.epi.cc.summary ] 
+
+Analysis finished: Wed Jan 30 18:29:09 2013
+

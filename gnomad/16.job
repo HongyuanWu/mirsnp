@@ -1,0 +1,9 @@
+#PBS -N 16
+#PBS -l nodes=1:ppn=1
+#PBS -M Guo.shicheng@marshfieldresearch.org
+#PBS -o /gpfs/home/guosa/hpc/rheumatology/RA/meta3000/MIR/gnomad/temp/
+#PBS -e /gpfs/home/guosa/hpc/rheumatology/RA/meta3000/MIR/gnomad/temp/
+#PBS -m abe
+cd /gpfs/home/guosa/hpc/rheumatology/RA/meta3000/MIR/gnomad
+bcftools view -m2 -M2 -v snps -f PASS -R /gpfs/home/guosa/hpc/db/dbSNP153/miRNA.db153.uni.hg19.bed /gpfs/home/guosa/hpc/db/Gnomad/genome/gnomad.genomes.r2.1.sites.chr16.vcf.bgz -Oz -o gnomad.genomes.r2.1.chr16.full.vcf.gz
+bcftools view -m2 -M2 -v snps -f PASS -i 'INFO/AF_eas>0.01' -R /gpfs/home/guosa/hpc/db/dbSNP153/miRNA.db153.uni.hg19.bed /gpfs/home/guosa/hpc/db/Gnomad/genome/gnomad.genomes.r2.1.sites.chr16.vcf.bgz -Oz -o gnomad.genomes.r2.1.chr16.common.vcf.gz

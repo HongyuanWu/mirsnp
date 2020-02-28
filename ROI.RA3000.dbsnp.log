@@ -1,0 +1,27 @@
+PLINK v1.90p 64-bit (21 Feb 2018)
+Options in effect:
+  --bfile ROI.RA3000.dbsnp
+  --model fisher
+  --out ROI.RA3000.dbsnp
+
+Hostname: chg1-lc
+Working directory: /mnt/bigdata/Genetic/Projects/shg047/rheumatology/RA/meta3000/MIR
+Start time: Fri Feb 21 21:22:05 2020
+
+Random number seed: 1582341725
+387577 MB RAM detected; reserving 193788 MB for main workspace.
+233 variants loaded from .bim file.
+3187 people (369 males, 1689 females, 1129 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ROI.RA3000.dbsnp.nosex .
+3187 phenotype values loaded from .fam.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 3187 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+233 variants and 3187 people pass filters and QC.
+Among remaining phenotypes, 1029 are cases and 1029 are controls.  (1129
+phenotypes are missing.)
+Writing --model report to ROI.RA3000.dbsnp.model ... done.
+
+End time: Fri Feb 21 21:22:05 2020

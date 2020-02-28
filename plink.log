@@ -1,0 +1,13 @@
+PLINK v1.90p 64-bit (21 Feb 2018)
+Options in effect:
+  --meta-analysis RA_GWASmeta_Asian_Guo2020_v3.txt ROI.RA3000.assoc.logistic
+
+Hostname: login
+Working directory: /mnt/bigdata/Genetic/Projects/shg047/rheumatology/RA/meta3000/MIR
+Start time: Sun Feb 23 23:50:12 2020
+
+Random number seed: 1582523412
+64510 MB RAM detected; reserving 32255 MB for main workspace.
+--meta-analysis: 187 variants processed; results written to plink.meta .
+
+End time: Sun Feb 23 23:50:34 2020

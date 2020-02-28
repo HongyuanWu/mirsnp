@@ -1,0 +1,8 @@
+Lines   total/split/realigned/skipped:	1934072/0/0/0
+Writing to /tmp/bcftools-sort.6EAoQv
+Merging 2 temporary files
+Cleaning
+Done
+The argument to -d not recognised: 15.substitutions.annot.cont_withmaf.norm.sort.vcf.gz
+[E::hts_open_format] Failed to open file "15.substitutions.annot.cont_withmaf.sort.vcf.gz" : No such file or directory
+Failed to read from 15.substitutions.annot.cont_withmaf.sort.vcf.gz: No such file or directory

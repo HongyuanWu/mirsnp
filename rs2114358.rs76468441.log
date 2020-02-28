@@ -1,0 +1,32 @@
+PLINK v1.90p 64-bit (21 Feb 2018)
+Options in effect:
+  --a1-allele MyReferenceAllele.txt
+  --allow-no-sex
+  --bfile ROI.RA3000.dbsnp
+  --epistasis
+  --out rs2114358.rs76468441
+  --threads 31
+  --twolocus rs2114358 rs76468441
+
+Hostname: login
+Working directory: /mnt/bigdata/Genetic/Projects/shg047/rheumatology/RA/meta3000/MIR
+Start time: Sat Feb 22 13:14:29 2020
+
+Random number seed: 1582398869
+64510 MB RAM detected; reserving 32255 MB for main workspace.
+233 variants loaded from .bim file.
+3187 people (369 males, 1689 females, 1129 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to rs2114358.rs76468441.nosex .
+3187 phenotype values loaded from .fam.
+Using up to 31 threads (change this with --threads).
+Before main variant filters, 3187 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+--a1-allele: 3 assignments made.
+233 variants and 3187 people pass filters and QC.
+Among remaining phenotypes, 1607 are cases and 1580 are controls.
+--twolocus: Report written to rs2114358.rs76468441.twolocus .
+C/C --epistasis to rs2114358.rs76468441.epi.cc ... done.
+26941 valid tests performed, summary written to
+rs2114358.rs76468441.epi.cc.summary .
+
+End time: Sat Feb 22 13:14:30 2020

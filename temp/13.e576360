@@ -1,0 +1,7 @@
+Lines   total/split/realigned/skipped:	2388754/0/0/0
+Writing to /tmp/bcftools-sort.92zfi8
+[buf_flush] Error: cannot write to /tmp/bcftools-sort.92zfi8/00001.bcf
+Cleaning
+The argument to -d not recognised: 13.substitutions.annot.cont_withmaf.norm.sort.vcf.gz
+[E::hts_open_format] Failed to open file "13.substitutions.annot.cont_withmaf.sort.vcf.gz" : No such file or directory
+Failed to read from 13.substitutions.annot.cont_withmaf.sort.vcf.gz: No such file or directory

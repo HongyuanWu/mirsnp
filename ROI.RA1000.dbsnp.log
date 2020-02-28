@@ -1,0 +1,30 @@
+PLINK v1.90p 64-bit (21 Feb 2018)
+Options in effect:
+  --bfile /gpfs/home/guosa/hpc/rheumatology/RA/RA1000/michigan/RA1000.beagle
+  --extract range hsa.gff3.hg19.bed
+  --make-bed
+  --out ROI.RA1000.dbsnp
+
+Hostname: login
+Working directory: /mnt/bigdata/Genetic/Projects/shg047/rheumatology/RA/meta3000/MIR
+Start time: Thu Feb 20 01:05:36 2020
+
+Random number seed: 1582182336
+64510 MB RAM detected; reserving 32255 MB for main workspace.
+7464067 variants loaded from .bim file.
+2116 people (369 males, 1689 females, 58 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ROI.RA1000.dbsnp.nosex .
+2116 phenotype values loaded from .fam.
+--extract range: 7463834 variants excluded.
+--extract range: 233 variants remaining.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 2116 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+233 variants and 2116 people pass filters and QC.
+Among remaining phenotypes, 1087 are cases and 1029 are controls.
+--make-bed to ROI.RA1000.dbsnp.bed + ROI.RA1000.dbsnp.bim +
+ROI.RA1000.dbsnp.fam ... done.
+
+End time: Thu Feb 20 01:05:45 2020

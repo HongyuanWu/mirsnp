@@ -1,0 +1,9 @@
+#PBS -N 7
+#PBS -l nodes=1:ppn=1
+#PBS -M Guo.shicheng@marshfieldresearch.org
+#PBS -o /gpfs/home/guosa/hpc/rheumatology/RA/meta3000/MIR/GenomeAsia100K/temp/
+#PBS -e /gpfs/home/guosa/hpc/rheumatology/RA/meta3000/MIR/GenomeAsia100K/temp/
+#PBS -m abe
+cd /gpfs/home/guosa/hpc/rheumatology/RA/meta3000/MIR/GenomeAsia100K
+bcftools view -m2 -M2 -v snps -f PASS -R /gpfs/home/guosa/hpc/db/dbSNP153/miRNA.db153.uni.hg19.bed 7.GenomeAsia100K.norm.vcf.gz -Oz -o 7.GenomeAsia100K.norm.full.vcf.gz
+bcftools view -v snps -f PASS -i 'INFO/AF_SAS>0.01 &INFO/AF_SEA>0.01' -R /gpfs/home/guosa/hpc/db/dbSNP153/miRNA.db153.uni.hg19.bed 7.GenomeAsia100K.norm.vcf.gz -Oz -o 7.GenomeAsia100K.common.vcf.gz

@@ -1,0 +1,30 @@
+PLINK v1.90p 64-bit (21 Feb 2018)
+Options in effect:
+  --allow-no-sex
+  --bfile ROI.RA1000.dbsnp
+  --ci 0.95
+  --logistic
+  --out ROI.RA1000.recessive
+  --recessive
+
+Hostname: login
+Working directory: /mnt/bigdata/Genetic/Projects/shg047/rheumatology/RA/meta3000/MIR
+Start time: Thu Feb 20 01:06:40 2020
+
+Note: --recessive flag deprecated.  Use e.g. '--linear recessive' (and
+'--condition-list [filename] recessive' to change covariate coding).
+Random number seed: 1582182400
+64510 MB RAM detected; reserving 32255 MB for main workspace.
+233 variants loaded from .bim file.
+2116 people (369 males, 1689 females, 58 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ROI.RA1000.recessive.nosex .
+2116 phenotype values loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 2116 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+233 variants and 2116 people pass filters and QC.
+Among remaining phenotypes, 1087 are cases and 1029 are controls.
+Writing logistic model association results to
+ROI.RA1000.recessive.assoc.logistic ... done.
+
+End time: Thu Feb 20 01:06:40 2020

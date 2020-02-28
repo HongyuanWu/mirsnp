@@ -1,0 +1,4 @@
+[E::idx_find_and_load] Could not retrieve index file for '/gpfs/home/guosa/hpc/db/Gnomad/genome/gnomad.genomes.r2.1.sites.chr13.vcf.bgz'
+Failed to read from /gpfs/home/guosa/hpc/db/Gnomad/genome/gnomad.genomes.r2.1.sites.chr13.vcf.bgz: could not load index
+[E::idx_find_and_load] Could not retrieve index file for '/gpfs/home/guosa/hpc/db/Gnomad/genome/gnomad.genomes.r2.1.sites.chr13.vcf.bgz'
+Failed to read from /gpfs/home/guosa/hpc/db/Gnomad/genome/gnomad.genomes.r2.1.sites.chr13.vcf.bgz: could not load index

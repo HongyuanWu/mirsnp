@@ -1,0 +1,12 @@
+[E::hts_open_format] Failed to open file "/gpfs/home/guosa/hpc/db/GenomeAsia100K/X.substitutions.annot.cont_withmaf.vcf.gz" : No such file or directory
+Failed to read from /gpfs/home/guosa/hpc/db/GenomeAsia100K/X.substitutions.annot.cont_withmaf.vcf.gz: No such file or directory
+tbx_index_build failed: X.GenomeAsia100K.norm.vcf.gz
+[E::hts_open_format] Failed to open file "hsa.gff3.hg19.bed" : No such file or directory
+[E::bcf_sr_regions_init] Could not open file: hsa.gff3.hg19.bed
+Failed to read the targets: hsa.gff3.hg19.bed
+Writing to /tmp/bcftools-sort.ToUzDe
+[E::hts_open_format] Failed to open file "X.GenomeAsia100K.common.vcf.gz" : No such file or directory
+Could not read X.GenomeAsia100K.common.vcf.gz
+Cleaning
+[E::hts_open_format] Failed to open file "X.GenomeAsia100K.common.sort.vcf.gz" : No such file or directory
+Failed to read from X.GenomeAsia100K.common.sort.vcf.gz: No such file or directory

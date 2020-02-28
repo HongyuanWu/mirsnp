@@ -1,0 +1,15 @@
+PLINK v1.90p 64-bit (21 Feb 2018)
+Options in effect:
+  --meta-analysis ROI.RA3000.assoc.logistic RA_GWASmeta_Asian_Guo2020.txt
+  --out meta
+
+Hostname: chg1-lc
+Working directory: /mnt/bigdata/Genetic/Projects/shg047/rheumatology/RA/meta3000/MIR
+Start time: Sun Feb 23 23:36:45 2020
+
+Random number seed: 1582522605
+387577 MB RAM detected; reserving 193788 MB for main workspace.
+--meta-analysis: 187 problematic lines; see meta.prob .
+Error: No --meta-analysis variants.
+
+End time: Sun Feb 23 23:36:57 2020
